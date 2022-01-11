@@ -19,7 +19,7 @@
                         @csrf
                         <input type="text" name="name" value="@if($data) {{  $data->name }} @endif" placeholder="nama company" /> <br/>
                         <textarea name="description" placeholder="deskripsi company">@if($data) {{  $data->description }} @endif </textarea> <br/>
-                        <input type="file" name="image" /><br/>
+                        {{-- <input type="file" name="image" /><br/> --}}
                         <button type="submit">Simpan</button>
                     </form>
                 </div>
